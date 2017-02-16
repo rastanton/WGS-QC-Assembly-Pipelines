@@ -1,5 +1,6 @@
 #!/bin/bash -l
 # Requires Kraken and the python script Kraken_Multi_Maker.py to be installed.
+# The location of the relevant kraken database should be put in the place of the $kraken_db placeholder
 # Outputs a text file with the top 5 species matches for each fastq file in the folder.
 for k in *.fastq
 do
